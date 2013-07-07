@@ -7,40 +7,61 @@
 	margin-left: auto;
 	background-color:white;
 	position: relative;
-	margin-top: -50px;
+	/*margin-top: -50px*;*/
+	margin-top:10px;
 	box-shadow: 0px 5px 10px #888888;
 	padding: 10px;
 }
 
 .menu
 {
-	width: 400px;
+	width: 620px;
 	/*border-style:solid;*/
 	margin-right: auto;
 	margin-left: auto;
 	position:relative;
 	/*background-color:red;*/
 	margin-top: 20px;
+	z-index:10;
 }
 
 .menubutton
 {
 	display:inline-block;
-	margin:10px;
+	/*margin:10px;*/
+	width:205px;
+	height:80px;
+	/*height:85px;*/
+	/*background-image:url("../images/IconPaper.png");
+	background-repeat: no-repeat;*/
 }
 
-.menubutton:hover
+.menubutton:hover .linkimage
 {
-	position:relative;
-	top:-25px;
+	height: 83px;
+	width:auto;
+	/*position:relative;
+	top:-25px;*/
 }
 
 .linkimage
 {
-	height:80px;
+	width:80px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
 }
 
 body
 {
-	background-image:url("../images/squairy_light.png");
+	background-image:url("../images/paper-texture.png");
+	font-family:'Open Sans', sans-serif;
+}
+
+.menubutton .text
+{
+	/*width:150px;*/
+	margin-right:auto;
+	margin-left:auto;
+	display: block;
 }
