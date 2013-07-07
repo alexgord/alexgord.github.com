@@ -1,0 +1,38 @@
+.maindiv
+{
+	width: 900px;
+	border-style:solid;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: blue;
+	position: relative;
+	margin-top: -50px;
+}
+
+.menu
+{
+	width: 400px;
+	/*border-style:solid;*/
+	margin-right: auto;
+	margin-left: auto;
+	position:relative;
+	/*background-color:red;*/
+	margin-top: 20px;
+}
+
+.menubutton
+{
+	display:inline-block;
+	margin:10px;
+}
+
+.menubutton:hover
+{
+	position:relative;
+	top:-25px;
+}
+
+.linkimage
+{
+	height:80px;
+}
