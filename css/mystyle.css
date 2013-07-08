@@ -54,7 +54,7 @@
 
 body
 {
-	background-image:url("../images/paper-texture.png");
+	background-image:url("../images/stripes-pattern.png");
 	font-family:'Open Sans', sans-serif;
 }
 
@@ -65,3 +65,29 @@ body
 	margin-left:auto;
 	display: block;
 }
+
+.georgiafont
+{
+	font-family: georgia;
+}
+
+.navigator
+{
+	width:100%;
+}
+
+.navigator .linkbutton
+{
+	padding:5px;
+}
+
+.navigator .linkbutton a
+{
+	color:black;
+}
+
+.navigator .linkbutton a:visited
+{
+	color:black;
+}
+

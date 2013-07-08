@@ -1,43 +1,18 @@
-doctype 5
-html
-	head
-		link(rel='stylesheet', href='css/mystyle.css')
-		title
-			|Alexandre Simard
-	body
-		div(class="menu")
-			span(class="menubutton")
-				span(class="text", style="width:150px")
-					|Follow me on twitter
-				//br/
-				a(href="https://twitter.com/AlexandreSimar2")
-					img(src="images/twitter-bird.png", class="linkimage")
-			span(class="menubutton")
-				span(class="text", style="width:130px")
-					|View my projects
-				//br/
-				a(href="https://github.com/alexgord")
-					img(src="images/Octocat.png", class="linkimage")
-			span(class="menubutton")
-				span(class="text", style="width:60px")
-					|LinkedIn
-				//br/
-				a(href="http://ca.linkedin.com/pub/alexandre-simard/65/ba1/1a2")
-					img(src="images/LinkedIn_Logo.png", class="linkimage")
-		div(class="maindiv")
-			h2
-				|About me
-			p
-				|I am a computer scientist, programmer, and glider pilot.
-				|I am currently studying software systems at Concordia University
-				|in Montreal.
-				|I have experience with many kinds of development. I have made
-				|desktop applications, games, websites, android applications, and more.
-			p
-				|Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-				|sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-				|Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-				|nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-				|reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-				|pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-				|culpa qui officia deserunt mollit anim id est laborum
+extends master
+block prepend headerContent
+	title="Alexandre Simard"
+append mainContent
+	h2
+		|About me
+	p(class="georgiafont")
+		|I am a computer scientist, programmer, and glider pilot.
+		|I am currently studying software systems at Concordia University
+		|in Montreal.
+		|I have graduated from John Abbott College, in the west island
+		|of montreal. There I did a three year technical computer science program.
+		|I have experience with many kinds of development. I have made
+		|desktop applications, games, websites, android applications, and more.
+	p(class="georgiafont")
+		|I enjoy developing any kind of software, and if you have a project
+		|you would like me to help you with, don't hesitate to contact me to 
+		|find out if I'm the right programmer for you.

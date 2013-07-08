@@ -1,0 +1,35 @@
+doctype 5
+html
+	head
+		block headContent
+		link(rel='stylesheet', href='css/mystyle.css')
+	body
+		div(class="menu")
+			span(class="menubutton")
+				span(class="text", style="width:150px")
+					|Follow me on twitter
+				a(href="https://twitter.com/AlexandreSimar2")
+					img(src="images/twitter-bird.png", class="linkimage")
+			span(class="menubutton")
+				span(class="text", style="width:130px")
+					|View my projects
+				a(href="https://github.com/alexgord")
+					img(src="images/Octocat.png", class="linkimage")
+			span(class="menubutton")
+				span(class="text", style="width:60px")
+					|LinkedIn
+				a(href="http://ca.linkedin.com/pub/alexandre-simard/65/ba1/1a2")
+					img(src="images/LinkedIn_Logo.png", class="linkimage")
+		div(class="maindiv")
+			div(class="navigator")
+				span(class="linkbutton")
+					a(href="index.html")
+						|About me
+				span(class="linkbutton")
+					a(href="contactme.html")
+						|Contact me
+				span(class="linkbutton")
+					a(href="pastwork.html")
+						|Past Work
+				span(class="pastwork.html")
+			block mainContent
