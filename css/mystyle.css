@@ -5,7 +5,6 @@ html, body
     height: 100%;
 }
 
-
 .maindiv
 {
 	width: 850px;
@@ -37,7 +36,7 @@ html, body
 {
 	display:inline-block;
 	/*margin:10px;*/
-	width:205px;
+	width:230px;
 	height:80px;
 	/*height:85px;*/
 	/*background-image:url("../images/IconPaper.png");
@@ -46,7 +45,7 @@ html, body
 
 .menubutton:hover .linkimage
 {
-	width: 83px;
+	width: 203px;
 	/*width:auto;*/
 	/*position:relative;
 	top:-25px;*/
@@ -54,7 +53,7 @@ html, body
 
 .linkimage
 {
-	width:80px;
+	width:200px;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
@@ -81,6 +80,8 @@ body
 	margin-right:auto;
 	margin-left:auto;
 	display: block;
+	color:white;
+	font-size:30px;
 }
 
 .georgiafont
@@ -110,3 +111,45 @@ body
 	text-decoration:underline
 }
 
+#menu
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 40px;
+	z-index: 70;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#menu li
+{
+	display: inline-block;
+	margin: 10px;
+	color: #000;
+	background: #fff;
+	background: rgba(255,255,255, 0.5);
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#menu li a, #menu li.active a
+{
+	padding: 9px 18px;
+	display: block;
+}
+
+#menu li a
+{
+	text-decoration: none;
+	color: #000;
+}
+
+#menu li.active
+{
+	background: #666;
+	background: rgba(0,0,0, 0.5);
+	color: #fff;
+}
